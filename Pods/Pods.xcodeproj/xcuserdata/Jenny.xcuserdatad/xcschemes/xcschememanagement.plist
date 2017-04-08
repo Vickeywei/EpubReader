@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-EpubDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XMLDictionary.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ZipArchive.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>54CA9C8D0887ADA86E183A0F43F60D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE3995D65C5C10291A8C72A9B10EC4C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB4C6D2E99783173157A86AB582CEB7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F81D40D1BFD68CEC126836527172ADAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

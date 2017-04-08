@@ -1,0 +1,18 @@
+PODS:
+  - XMLDictionary (1.4)
+  - YYModel (1.0.4)
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - XMLDictionary (~> 1.4)
+  - YYModel (~> 1.0.4)
+  - ZipArchive (~> 1.4.0)
+
+SPEC CHECKSUMS:
+  XMLDictionary: f9f51601ba76678b594ab485f2b00ec1fed23724
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+PODFILE CHECKSUM: edc697aecee3a8382a9c3f3d7b40a1b720d77641
+
+COCOAPODS: 1.1.1

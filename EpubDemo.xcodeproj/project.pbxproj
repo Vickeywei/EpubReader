@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA16B7531E97CFE600FD7416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16B7521E97CFE600FD7416 /* main.m */; };
+		BA16B7561E97CFE600FD7416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16B7551E97CFE600FD7416 /* AppDelegate.m */; };
+		BA16B7591E97CFE600FD7416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16B7581E97CFE600FD7416 /* ViewController.m */; };
+		BA16B75C1E97CFE600FD7416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA16B75A1E97CFE600FD7416 /* Main.storyboard */; };
+		BA16B75E1E97CFE600FD7416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA16B75D1E97CFE600FD7416 /* Assets.xcassets */; };
+		BA16B7611E97CFE600FD7416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA16B75F1E97CFE600FD7416 /* LaunchScreen.storyboard */; };
+		BA16B7691E97CFEF00FD7416 /* 每天懂一点好玩心理学.epub in Resources */ = {isa = PBXBuildFile; fileRef = BA16B7681E97CFEF00FD7416 /* 每天懂一点好玩心理学.epub */; };
+		BA599D431E98BB2D00BDFFF3 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D3E1E98BB2D00BDFFF3 /* HTMLNode.m */; };
+		BA599D441E98BB2D00BDFFF3 /* HTMLNode+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D401E98BB2D00BDFFF3 /* HTMLNode+UI.m */; };
+		BA599D451E98BB2D00BDFFF3 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D421E98BB2D00BDFFF3 /* HTMLParser.m */; };
+		BA599D481E98BB5500BDFFF3 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA599D471E98BB5500BDFFF3 /* libxml2.2.tbd */; };
+		BA599D501E98BBF200BDFFF3 /* EpubHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D4F1E98BBF200BDFFF3 /* EpubHTMLParser.m */; };
+		BA599D531E98BE1700BDFFF3 /* EpubNcxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D521E98BE1700BDFFF3 /* EpubNcxModel.m */; };
+		BA599D571E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D561E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.m */; };
+		BA599D5A1E98CF8500BDFFF3 /* EpubCSSStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D591E98CF8500BDFFF3 /* EpubCSSStyleSheet.m */; };
+		BA599D5F1E98CFCE00BDFFF3 /* NSScanner+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D5C1E98CFCE00BDFFF3 /* NSScanner+HTML.m */; };
+		BA599D601E98CFCE00BDFFF3 /* NSString+CSS.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D5E1E98CFCE00BDFFF3 /* NSString+CSS.m */; };
+		BA599D631E98CFE100BDFFF3 /* NSCharacterSet+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D621E98CFE100BDFFF3 /* NSCharacterSet+HTML.m */; };
+		BA599D661E98D0E200BDFFF3 /* EpubCssConverHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D651E98D0E200BDFFF3 /* EpubCssConverHelp.m */; };
+		BA599D691E98D10500BDFFF3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D681E98D10500BDFFF3 /* UIColor+Hex.m */; };
+		BA599D6D1E98D15A00BDFFF3 /* EpubReaderSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D6C1E98D15A00BDFFF3 /* EpubReaderSetting.m */; };
+		BA599D701E98D21800BDFFF3 /* EpubReaderStyleSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D6F1E98D21800BDFFF3 /* EpubReaderStyleSetting.m */; };
+		BA599D731E98D3FF00BDFFF3 /* EpubReaderData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D721E98D3FF00BDFFF3 /* EpubReaderData.m */; };
+		BA599D771E98F90100BDFFF3 /* EpubCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D761E98F90100BDFFF3 /* EpubCoreTextView.m */; };
+		BA599D7B1E98FAD200BDFFF3 /* EpubContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D7A1E98FAD200BDFFF3 /* EpubContentViewController.m */; };
+		BA599D7E1E98FB4B00BDFFF3 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = BA599D7D1E98FB4B00BDFFF3 /* UIView+Layout.m */; };
+		C5B27FC55A6663BAA1FA8AE4 /* libPods-EpubDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24DEFF6793F3A68C6AF010 /* libPods-EpubDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D711CE991D45189D9C0463 /* Pods-EpubDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpubDemo/Pods-EpubDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6F24DEFF6793F3A68C6AF010 /* libPods-EpubDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpubDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA16B74E1E97CFE600FD7416 /* EpubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA16B7521E97CFE600FD7416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA16B7541E97CFE600FD7416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA16B7551E97CFE600FD7416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA16B7571E97CFE600FD7416 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA16B7581E97CFE600FD7416 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA16B75B1E97CFE600FD7416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA16B75D1E97CFE600FD7416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA16B7601E97CFE600FD7416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA16B7621E97CFE600FD7416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA16B7681E97CFEF00FD7416 /* 每天懂一点好玩心理学.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "每天懂一点好玩心理学.epub"; sourceTree = "<group>"; };
+		BA4BAFFE1E98C0E40087EBC1 /* EpubNcxFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubNcxFileParser.h; sourceTree = "<group>"; };
+		BA599D361E98B46200BDFFF3 /* EpubDecompressionComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubDecompressionComponent.h; sourceTree = "<group>"; };
+		BA599D391E98B7B500BDFFF3 /* EpubDestinationPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubDestinationPath.h; sourceTree = "<group>"; };
+		BA599D3C1E98B82F00BDFFF3 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		BA599D3D1E98BB2D00BDFFF3 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		BA599D3E1E98BB2D00BDFFF3 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		BA599D3F1E98BB2D00BDFFF3 /* HTMLNode+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMLNode+UI.h"; sourceTree = "<group>"; };
+		BA599D401E98BB2D00BDFFF3 /* HTMLNode+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTMLNode+UI.m"; sourceTree = "<group>"; };
+		BA599D411E98BB2D00BDFFF3 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		BA599D421E98BB2D00BDFFF3 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		BA599D471E98BB5500BDFFF3 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		BA599D4E1E98BBF200BDFFF3 /* EpubHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubHTMLParser.h; sourceTree = "<group>"; };
+		BA599D4F1E98BBF200BDFFF3 /* EpubHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubHTMLParser.m; sourceTree = "<group>"; };
+		BA599D511E98BE1700BDFFF3 /* EpubNcxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubNcxModel.h; sourceTree = "<group>"; };
+		BA599D521E98BE1700BDFFF3 /* EpubNcxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubNcxModel.m; sourceTree = "<group>"; };
+		BA599D551E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubReaderBaseAttributedData.h; sourceTree = "<group>"; };
+		BA599D561E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubReaderBaseAttributedData.m; sourceTree = "<group>"; };
+		BA599D581E98CF8500BDFFF3 /* EpubCSSStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubCSSStyleSheet.h; sourceTree = "<group>"; };
+		BA599D591E98CF8500BDFFF3 /* EpubCSSStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubCSSStyleSheet.m; sourceTree = "<group>"; };
+		BA599D5B1E98CFCE00BDFFF3 /* NSScanner+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+HTML.h"; sourceTree = "<group>"; };
+		BA599D5C1E98CFCE00BDFFF3 /* NSScanner+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+HTML.m"; sourceTree = "<group>"; };
+		BA599D5D1E98CFCE00BDFFF3 /* NSString+CSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CSS.h"; sourceTree = "<group>"; };
+		BA599D5E1E98CFCE00BDFFF3 /* NSString+CSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CSS.m"; sourceTree = "<group>"; };
+		BA599D611E98CFE100BDFFF3 /* NSCharacterSet+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+HTML.h"; sourceTree = "<group>"; };
+		BA599D621E98CFE100BDFFF3 /* NSCharacterSet+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+HTML.m"; sourceTree = "<group>"; };
+		BA599D641E98D0E200BDFFF3 /* EpubCssConverHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubCssConverHelp.h; sourceTree = "<group>"; };
+		BA599D651E98D0E200BDFFF3 /* EpubCssConverHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubCssConverHelp.m; sourceTree = "<group>"; };
+		BA599D671E98D10500BDFFF3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		BA599D681E98D10500BDFFF3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		BA599D6B1E98D15A00BDFFF3 /* EpubReaderSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubReaderSetting.h; sourceTree = "<group>"; };
+		BA599D6C1E98D15A00BDFFF3 /* EpubReaderSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubReaderSetting.m; sourceTree = "<group>"; };
+		BA599D6E1E98D21800BDFFF3 /* EpubReaderStyleSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubReaderStyleSetting.h; sourceTree = "<group>"; };
+		BA599D6F1E98D21800BDFFF3 /* EpubReaderStyleSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubReaderStyleSetting.m; sourceTree = "<group>"; };
+		BA599D711E98D3FF00BDFFF3 /* EpubReaderData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubReaderData.h; sourceTree = "<group>"; };
+		BA599D721E98D3FF00BDFFF3 /* EpubReaderData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubReaderData.m; sourceTree = "<group>"; };
+		BA599D751E98F90100BDFFF3 /* EpubCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubCoreTextView.h; sourceTree = "<group>"; };
+		BA599D761E98F90100BDFFF3 /* EpubCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubCoreTextView.m; sourceTree = "<group>"; };
+		BA599D791E98FAD200BDFFF3 /* EpubContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubContentViewController.h; sourceTree = "<group>"; };
+		BA599D7A1E98FAD200BDFFF3 /* EpubContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubContentViewController.m; sourceTree = "<group>"; };
+		BA599D7C1E98FB4B00BDFFF3 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		BA599D7D1E98FB4B00BDFFF3 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		E820C49CA9D8BB8425516C7E /* Pods-EpubDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpubDemo/Pods-EpubDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA16B74B1E97CFE600FD7416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA599D481E98BB5500BDFFF3 /* libxml2.2.tbd in Frameworks */,
+				C5B27FC55A6663BAA1FA8AE4 /* libPods-EpubDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340452A0680B9D011C5E8872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05D711CE991D45189D9C0463 /* Pods-EpubDemo.debug.xcconfig */,
+				E820C49CA9D8BB8425516C7E /* Pods-EpubDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60EBFC80D1005CF5EEC7766F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D471E98BB5500BDFFF3 /* libxml2.2.tbd */,
+				6F24DEFF6793F3A68C6AF010 /* libPods-EpubDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA16B7451E97CFE600FD7416 = {
+			isa = PBXGroup;
+			children = (
+				BA16B7501E97CFE600FD7416 /* EpubDemo */,
+				BA16B74F1E97CFE600FD7416 /* Products */,
+				340452A0680B9D011C5E8872 /* Pods */,
+				60EBFC80D1005CF5EEC7766F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA16B74F1E97CFE600FD7416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA16B74E1E97CFE600FD7416 /* EpubDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA16B7501E97CFE600FD7416 /* EpubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D7F1E98FB5100BDFFF3 /* Category */,
+				BA599D781E98FAB400BDFFF3 /* Controller */,
+				BA599D741E98F8E600BDFFF3 /* CoreTextView */,
+				BA599D6A1E98D14100BDFFF3 /* Config */,
+				BA599D541E98BE2400BDFFF3 /* Model */,
+				BA599D4D1E98BBD500BDFFF3 /* EpubParser */,
+				BA599D4C1E98BBBC00BDFFF3 /* Archive */,
+				BA599D4B1E98BBAF00BDFFF3 /* Macro */,
+				BA599D4A1E98BBA200BDFFF3 /* Resources */,
+				BA599D461E98BB3100BDFFF3 /* HTMLParser */,
+				BA16B7541E97CFE600FD7416 /* AppDelegate.h */,
+				BA16B7551E97CFE600FD7416 /* AppDelegate.m */,
+				BA16B7571E97CFE600FD7416 /* ViewController.h */,
+				BA16B7581E97CFE600FD7416 /* ViewController.m */,
+				BA16B75A1E97CFE600FD7416 /* Main.storyboard */,
+				BA16B75D1E97CFE600FD7416 /* Assets.xcassets */,
+				BA16B75F1E97CFE600FD7416 /* LaunchScreen.storyboard */,
+				BA16B7621E97CFE600FD7416 /* Info.plist */,
+				BA16B7511E97CFE600FD7416 /* Supporting Files */,
+			);
+			path = EpubDemo;
+			sourceTree = "<group>";
+		};
+		BA16B7511E97CFE600FD7416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA16B7521E97CFE600FD7416 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA599D461E98BB3100BDFFF3 /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D3D1E98BB2D00BDFFF3 /* HTMLNode.h */,
+				BA599D3E1E98BB2D00BDFFF3 /* HTMLNode.m */,
+				BA599D3F1E98BB2D00BDFFF3 /* HTMLNode+UI.h */,
+				BA599D401E98BB2D00BDFFF3 /* HTMLNode+UI.m */,
+				BA599D411E98BB2D00BDFFF3 /* HTMLParser.h */,
+				BA599D421E98BB2D00BDFFF3 /* HTMLParser.m */,
+			);
+			name = HTMLParser;
+			sourceTree = "<group>";
+		};
+		BA599D4A1E98BBA200BDFFF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA16B7681E97CFEF00FD7416 /* 每天懂一点好玩心理学.epub */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA599D4B1E98BBAF00BDFFF3 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D3C1E98B82F00BDFFF3 /* Macro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		BA599D4C1E98BBBC00BDFFF3 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D361E98B46200BDFFF3 /* EpubDecompressionComponent.h */,
+				BA599D391E98B7B500BDFFF3 /* EpubDestinationPath.h */,
+			);
+			name = Archive;
+			sourceTree = "<group>";
+		};
+		BA599D4D1E98BBD500BDFFF3 /* EpubParser */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D641E98D0E200BDFFF3 /* EpubCssConverHelp.h */,
+				BA599D651E98D0E200BDFFF3 /* EpubCssConverHelp.m */,
+				BA599D4E1E98BBF200BDFFF3 /* EpubHTMLParser.h */,
+				BA599D4F1E98BBF200BDFFF3 /* EpubHTMLParser.m */,
+				BA4BAFFE1E98C0E40087EBC1 /* EpubNcxFileParser.h */,
+				BA599D581E98CF8500BDFFF3 /* EpubCSSStyleSheet.h */,
+				BA599D591E98CF8500BDFFF3 /* EpubCSSStyleSheet.m */,
+			);
+			name = EpubParser;
+			sourceTree = "<group>";
+		};
+		BA599D541E98BE2400BDFFF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D511E98BE1700BDFFF3 /* EpubNcxModel.h */,
+				BA599D521E98BE1700BDFFF3 /* EpubNcxModel.m */,
+				BA599D551E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.h */,
+				BA599D561E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.m */,
+				BA599D711E98D3FF00BDFFF3 /* EpubReaderData.h */,
+				BA599D721E98D3FF00BDFFF3 /* EpubReaderData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA599D6A1E98D14100BDFFF3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D6B1E98D15A00BDFFF3 /* EpubReaderSetting.h */,
+				BA599D6C1E98D15A00BDFFF3 /* EpubReaderSetting.m */,
+				BA599D6E1E98D21800BDFFF3 /* EpubReaderStyleSetting.h */,
+				BA599D6F1E98D21800BDFFF3 /* EpubReaderStyleSetting.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		BA599D741E98F8E600BDFFF3 /* CoreTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D751E98F90100BDFFF3 /* EpubCoreTextView.h */,
+				BA599D761E98F90100BDFFF3 /* EpubCoreTextView.m */,
+			);
+			name = CoreTextView;
+			sourceTree = "<group>";
+		};
+		BA599D781E98FAB400BDFFF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D791E98FAD200BDFFF3 /* EpubContentViewController.h */,
+				BA599D7A1E98FAD200BDFFF3 /* EpubContentViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BA599D7F1E98FB5100BDFFF3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA599D7C1E98FB4B00BDFFF3 /* UIView+Layout.h */,
+				BA599D7D1E98FB4B00BDFFF3 /* UIView+Layout.m */,
+				BA599D671E98D10500BDFFF3 /* UIColor+Hex.h */,
+				BA599D681E98D10500BDFFF3 /* UIColor+Hex.m */,
+				BA599D611E98CFE100BDFFF3 /* NSCharacterSet+HTML.h */,
+				BA599D621E98CFE100BDFFF3 /* NSCharacterSet+HTML.m */,
+				BA599D5B1E98CFCE00BDFFF3 /* NSScanner+HTML.h */,
+				BA599D5C1E98CFCE00BDFFF3 /* NSScanner+HTML.m */,
+				BA599D5D1E98CFCE00BDFFF3 /* NSString+CSS.h */,
+				BA599D5E1E98CFCE00BDFFF3 /* NSString+CSS.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA16B74D1E97CFE600FD7416 /* EpubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA16B7651E97CFE600FD7416 /* Build configuration list for PBXNativeTarget "EpubDemo" */;
+			buildPhases = (
+				4B70C6492BCBF3DEDC37AF0B /* [CP] Check Pods Manifest.lock */,
+				BA16B74A1E97CFE600FD7416 /* Sources */,
+				BA16B74B1E97CFE600FD7416 /* Frameworks */,
+				BA16B74C1E97CFE600FD7416 /* Resources */,
+				303BDDDB28067F257F399783 /* [CP] Embed Pods Frameworks */,
+				62B7430FAB8FEEA75FAA7ED3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpubDemo;
+			productName = EpubDemo;
+			productReference = BA16B74E1E97CFE600FD7416 /* EpubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA16B7461E97CFE600FD7416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jenny;
+				TargetAttributes = {
+					BA16B74D1E97CFE600FD7416 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NYRBZT6Z59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA16B7491E97CFE600FD7416 /* Build configuration list for PBXProject "EpubDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA16B7451E97CFE600FD7416;
+			productRefGroup = BA16B74F1E97CFE600FD7416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA16B74D1E97CFE600FD7416 /* EpubDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA16B74C1E97CFE600FD7416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA16B7611E97CFE600FD7416 /* LaunchScreen.storyboard in Resources */,
+				BA16B7691E97CFEF00FD7416 /* 每天懂一点好玩心理学.epub in Resources */,
+				BA16B75E1E97CFE600FD7416 /* Assets.xcassets in Resources */,
+				BA16B75C1E97CFE600FD7416 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303BDDDB28067F257F399783 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpubDemo/Pods-EpubDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B70C6492BCBF3DEDC37AF0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62B7430FAB8FEEA75FAA7ED3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpubDemo/Pods-EpubDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA16B74A1E97CFE600FD7416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA599D771E98F90100BDFFF3 /* EpubCoreTextView.m in Sources */,
+				BA599D431E98BB2D00BDFFF3 /* HTMLNode.m in Sources */,
+				BA599D691E98D10500BDFFF3 /* UIColor+Hex.m in Sources */,
+				BA599D661E98D0E200BDFFF3 /* EpubCssConverHelp.m in Sources */,
+				BA599D601E98CFCE00BDFFF3 /* NSString+CSS.m in Sources */,
+				BA599D5A1E98CF8500BDFFF3 /* EpubCSSStyleSheet.m in Sources */,
+				BA599D451E98BB2D00BDFFF3 /* HTMLParser.m in Sources */,
+				BA16B7591E97CFE600FD7416 /* ViewController.m in Sources */,
+				BA599D571E98CD5400BDFFF3 /* EpubReaderBaseAttributedData.m in Sources */,
+				BA599D5F1E98CFCE00BDFFF3 /* NSScanner+HTML.m in Sources */,
+				BA16B7561E97CFE600FD7416 /* AppDelegate.m in Sources */,
+				BA599D7E1E98FB4B00BDFFF3 /* UIView+Layout.m in Sources */,
+				BA16B7531E97CFE600FD7416 /* main.m in Sources */,
+				BA599D7B1E98FAD200BDFFF3 /* EpubContentViewController.m in Sources */,
+				BA599D6D1E98D15A00BDFFF3 /* EpubReaderSetting.m in Sources */,
+				BA599D501E98BBF200BDFFF3 /* EpubHTMLParser.m in Sources */,
+				BA599D631E98CFE100BDFFF3 /* NSCharacterSet+HTML.m in Sources */,
+				BA599D701E98D21800BDFFF3 /* EpubReaderStyleSetting.m in Sources */,
+				BA599D441E98BB2D00BDFFF3 /* HTMLNode+UI.m in Sources */,
+				BA599D731E98D3FF00BDFFF3 /* EpubReaderData.m in Sources */,
+				BA599D531E98BE1700BDFFF3 /* EpubNcxModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA16B75A1E97CFE600FD7416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA16B75B1E97CFE600FD7416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA16B75F1E97CFE600FD7416 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA16B7601E97CFE600FD7416 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA16B7631E97CFE600FD7416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA16B7641E97CFE600FD7416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA16B7661E97CFE600FD7416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D711CE991D45189D9C0463 /* Pods-EpubDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYRBZT6Z59;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = EpubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jenny.EpubDemo12333;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA16B7671E97CFE600FD7416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E820C49CA9D8BB8425516C7E /* Pods-EpubDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYRBZT6Z59;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ZipArchive\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = EpubDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jenny.EpubDemo12333;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA16B7491E97CFE600FD7416 /* Build configuration list for PBXProject "EpubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA16B7631E97CFE600FD7416 /* Debug */,
+				BA16B7641E97CFE600FD7416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA16B7651E97CFE600FD7416 /* Build configuration list for PBXNativeTarget "EpubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA16B7661E97CFE600FD7416 /* Debug */,
+				BA16B7671E97CFE600FD7416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA16B7461E97CFE600FD7416 /* Project object */;
+}
